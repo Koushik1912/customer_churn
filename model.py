@@ -1,1 +1,5 @@
-print("Training Model")
+# model.py
+
+from xgboost import XGBClassifier
+
+model = XGBClassifier()
